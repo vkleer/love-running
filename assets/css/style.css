@@ -238,9 +238,9 @@ footer {
 
 /* Media queries */
 
+/* For tablet sized screens */
 @media screen and (max-width: 1200px) {
     /* Club ethos section */
-
     #club-ethos {
         width: 65%;
         height: 1200px;
@@ -263,5 +263,17 @@ footer {
     }
     hr {
         display: none;
+    }
+}
+
+/* For medium screen sizes */
+@media screen and (max-width: 950px) {
+    /* Header section */
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 }
