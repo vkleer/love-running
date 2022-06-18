@@ -26,22 +26,31 @@
                     <a href="gallery.html" class="active">Gallery</a>
                 </li>
                 <li>
-                    <a href="signup.htm">Sign Up</a>
+                    <a href="signup.html">Sign Up</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <section id="photos">
-        <img src="assets/images/athletes.jpg" alt="Two athletes running">
-        <img src="assets/images/girls.jpg" alt="Three girls at Charity Paint running festival">
-        <img src="assets/images/runner3.jpg" alt="Solo male runner jogging on a beach">
-        <img src="assets/images/man.jpg" alt="Man at Charity Paint running festival">
-        <img src="assets/images/runner1.jpg" alt="Solo female runner jogging through Phoenix Park">
-        <img src="assets/images/runner2.jpg" alt="Runners completing marathon">
-        <img src="assets/images/runner4.jpg" alt="Solo female runner jogging on a beach">
-        <img src="assets/images/running_gang.jpg" alt="Large group of runners taking part in a marathon on a rainy day">
-        <img src="assets/images/mud-run.jpg" alt="Two female runners taking a muddy selfie after the Mud Runners Championship">
+    <section class="form-section">
+        <form action="https://formdump.codeinstitute.net/" method="POST">
+            <h2>Let's get you signed up!</h2>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="first_name" required>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="last_name" required>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" required>
+            
+            <label for="road">Road</label>
+            <input type="radio" id="road" name="running_preference" value="road" required>
+            <label for="trail">Trail</label>
+            <input type="radio" id="trail" name="running_preference" value="trail">
+            <label for="both">Both</label>
+            <input type="radio" id="both" name="running_preference" value="both">
+            
+            <input type="submit" value="Let's Run!">
+        </form>
     </section>
 
     <footer>
